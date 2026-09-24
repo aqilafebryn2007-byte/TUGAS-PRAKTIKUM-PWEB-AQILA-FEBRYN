@@ -4,17 +4,6 @@ Tugas slicing website portfolio **Aqila Febryn Dwi Putri Widyana**
 menggunakan **HTML, CSS (Plain), JavaScript (DOM)**.
 Berisi hobi, riwayat pendidikan, dan kontak dengan tampilan pastel yang ceria.
 
-## 📸 Screenshot
-
-### Desktop
-![Desktop](./screenshots/desktop.png)
-
-### Tablet
-![Tablet](./screenshots/tablet.png)
-
-### Mobile
-![Mobile](./screenshots/mobile.png)
-
 ## ✨ Fitur
 - ✅ Responsive (mobile, tablet, desktop)
 - ✅ Navbar sticky + scroll spy (menu otomatis menyala sesuai section)
@@ -36,7 +25,7 @@ Berisi hobi, riwayat pendidikan, dan kontak dengan tampilan pastel yang ceria.
 3. Atau deploy ke GitHub Pages / Netlify / Vercel
 
 ## 🔗 Demo
-- Vercel: _(isi link .vercel.app kamu)_
+- Vercel: https://tugas-praktikum-pweb-aqila-febryn.vercel.app/
 
 ## 👤 Author
 Aqila Febryn Dwi Putri Widyana — [GitHub](https://github.com/USERNAME-KAMU)
