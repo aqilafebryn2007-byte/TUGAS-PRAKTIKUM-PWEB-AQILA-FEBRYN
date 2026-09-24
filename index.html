@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portofolio Aqila Febryn Dwi Putri Widyana: hobi dan pendidikan." />
+  <title>Aqila Febryn Dwi Putri Widyana — Hobi & Pendidikan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&family=Nunito:wght@400;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand">aqila<span class="dot">✿</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#hobi" data-section="01">Hobi</a>
+        <a href="#pendidikan" data-section="02">Pendidikan</a>
+        <a href="#kontak" data-section="03">Kontak</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <span class="float f1" aria-hidden="true">✦</span>
+      <span class="float f2" aria-hidden="true">♡</span>
+      <span class="float f3" aria-hidden="true">✿</span>
+
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Aqila Febryn Dwi Putri Widyana — Teknologi Informasi, Universitas Jember</p>
+          <h1 class="hero-title">Hobi &amp;<br /><span class="accent">Pendidikan</span></h1>
+          <p class="hero-desc">
+            Mahasiswa Teknologi Informasi yang senang membangun hal nyata.
+            Di sini kamu bisa kenalan dengan sisi lain dariku: hal-hal yang
+            kusuka di luar kode, dan perjalanan belajarku sejauh ini.
+          </p>
+          <div class="hero-cta">
+            <a href="#hobi" class="btn btn-primary">Lihat Hobi →</a>
+            <a href="#pendidikan" class="btn btn-ghost">Pendidikan</a>
+            <a href="#Contact" class="btn btn-ghost">Contact</a>
+          </div>
+        </div>
+
+        <div class="code-block">
+          <div class="code-top" aria-hidden="true"><i></i><i></i><i></i><span>aqila.js</span></div>
+<pre><code><span class="kw">const</span> <span class="var">aqila</span> = {
+  <span class="key">kampus</span>: <span class="str">"Universitas Jember"</span>,
+  <span class="key">hobi</span>: [
+    <span class="str">"Ngoding"</span>,
+    <span class="str">"Musik"</span>,
+    <span class="str">"Film"</span>,
+    <span class="str">"Baca"</span>,
+    <span class="str">"Kafe"</span>
+  ],
+  <span class="key">lokasi</span>: <span class="str">"Jember, ID"</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOBI ===== -->
+    <section class="section" id="hobi">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-num">01</span>
+          <span class="section-label">Hobi</span>
+        </div>
+        <p class="section-tag">✿ Di Luar Kode</p>
+        <h2 class="section-title">
+          Di luar kode,<br />hidup tetap<br /><span class="accent">seru.</span>
+        </h2>
+
+        <div class="about-grid">
+          <p class="dropcap">
+            Belajar teknologi butuh tenaga dan fokus, jadi aku juga butuh hal-hal
+            yang membuatku senang dan mengisi ulang semangat. Hobi-hobi ini
+            yang menjaga aku tetap seimbang.
+          </p>
+          <p class="dropcap">
+            Sebagian hobiku ternyata ikut memengaruhi caraku belajar dan
+            membangun proyek. Klik kartu di bawah untuk membaca cerita
+            di balik tiap hobi.
+          </p>
+        </div>
+
+        <div class="board" id="board"></div>
+
+        <div class="details-box">
+          <h3 class="details-title">Detail Singkat</h3>
+          <div class="details-grid">
+            <div class="detail-item d1"><span class="detail-key">Status</span><span class="detail-val">Mahasiswa Teknologi Informasi</span></div>
+            <div class="detail-item d2"><span class="detail-key">Kampus</span><span class="detail-val">Universitas Jember</span></div>
+            <div class="detail-item d3"><span class="detail-key">Hobi Utama</span><span class="detail-val">Nyanyi & paduan suara</span></div>
+            <div class="detail-item d4"><span class="detail-key">Domisili</span><span class="detail-val">Jember, Jawa Timur</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PENDIDIKAN ===== -->
+    <section class="section" id="pendidikan">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-num">02</span>
+          <span class="section-label">Pendidikan</span>
+        </div>
+        <h2 class="section-title small">Education <span class="accent">Journey</span></h2>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="Contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-num">03</span>
+          <span class="section-label">Contact</span>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h2 class="section-title small">Yuk, <span class="accent">ngobrol!</span></h2>
+            <p class="contact-desc">
+              Terbuka untuk kolaborasi proyek, magang, atau sekadar ngobrol
+              soal teknologi dan hobi. Boleh hubungi aku lewat platform berikut
+              atau kirim pesan lewat form.
+            </p>
+            <div class="social-links">
+              <a href="mailto:emailkamu@gmail.com" class="social" style="--c: var(--pink)">📧 Email</a>
+              <a href="https://github.com/USERNAME-KAMU" target="_blank" rel="noopener" class="social" style="--c: var(--sky)">🐙 GitHub</a>
+              <a href="https://linkedin.com/in/USERNAME-KAMU" target="_blank" rel="noopener" class="social" style="--c: var(--mint)">💼 LinkedIn</a>
+              <a href="https://instagram.com/USERNAME-KAMU" target="_blank" rel="noopener" class="social" style="--c: var(--yellow)">📸 Instagram</a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <p class="form-title">Kirim Pesan ♡</p>
+            <p class="form-sub">Aku akan membalas secepat mungkin.</p>
+            <label>Nama
+              <input type="text" id="nameInput" placeholder="Nama kamu" />
+            </label>
+            <label>Email
+              <input type="email" id="emailInput" placeholder="email@domain.com" />
+            </label>
+            <label>Pesan
+              <textarea id="msgInput" rows="4" placeholder="Tulis pesanmu di sini..."></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary full">Kirim →</button>
+            <p class="form-feedback" id="formFeedback" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Aqila Febryn Dwi Putri Widyana. All rights reserved. ♡</p>
+      <p class="footer-note">Slicing tugas — Plain HTML / CSS / JS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
